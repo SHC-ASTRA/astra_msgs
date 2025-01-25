@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ControllerState.msg"
   "msg/CoreFeedback.msg"
   "msg/FaerieTelemetry.msg"
+  "msg/AutoFeedback.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
