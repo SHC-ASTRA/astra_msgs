@@ -15,11 +15,15 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/ArmState.msg"  
-  "msg/ControllerState.msg"
-  "msg/CoreFeedback.msg"
-  "msg/FaerieTelemetry.msg"
-  "msg/AutoFeedback.msg"
+  "msg/control/ArmIK.msg"
+  "msg/control/ArmManual.msg"
+  "msg/control/ControllerState.msg"
+  "msg/control/CoreControl.msg"
+  "msg/feedback/AutoFeedback.msg"
+  "msg/feedback/SocketFeedback.msg"
+  "msg/feedback/DigitFeedback.msg"
+  "msg/feedback/FaerieFeedback.msg"
+  "msg/feedback/CoreFeedback.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
