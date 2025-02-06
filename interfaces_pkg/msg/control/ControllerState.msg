@@ -32,3 +32,6 @@ bool d_up
 bool d_down
 bool d_left
 bool d_right
+
+#Home button
+bool home
