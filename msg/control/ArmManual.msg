@@ -26,10 +26,10 @@ int32 effector_roll
 # +1: Clockwise
 int32 effector_yaw
 
-# Gripper control
-# -1: Closing
+# Gripper/Drill Control
+# -1: Closing Gripper / CCW Drilling
 #  0: Stopped
-# +1: Opening
+# +1: Opening Gripper / CW Drilling
 int32 gripper
 
 # Linear Actuator movement direction
