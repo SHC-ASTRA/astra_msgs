@@ -12,9 +12,14 @@ int32 fanDuration
 int32 servoID
 int32 servoPosition
 
-# LSS: this one I have no idea; raises/lowers scythe
-int32 lssID
-int32 lssPosition
+# LSS: raises/lowers scythe. Maybe buttons for up/down/stop
+int32 lssDirection
+
+# Laser: toggle
+int32 laser
+
+# Dril: control like manual arm joints. Set direction and speed
+int32 drillDirection
 
 # Vibration motor: DC motor command (26), [0] = on/off (0/1)
 int32 vibrationMotor
