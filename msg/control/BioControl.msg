@@ -19,7 +19,7 @@ int32 lss_direction
 int32 laser
 
 # Dril: control like manual arm joints. Set direction and speed
-int32 drill_duty
+float32 drill_duty
 
 # Vibration motor: DC motor command (26), [0] = on/off (0/1)
 int32 vibration_motor
