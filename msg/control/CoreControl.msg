@@ -10,3 +10,7 @@ int32 max_speed       # Maximum duty cycle (range: 0 to 100)
 
 # Brake mode
 bool brake              # Is brake mode enabled?
+
+
+# Turn to absolute angle
+float32 turn_to         # Absolute angle, in degrees, to turn to
