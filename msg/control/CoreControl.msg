@@ -13,6 +13,6 @@ bool brake              # Is brake mode enabled?
 
 
 # Enable autonomy turning
-bool turn_to_enable
+bool turn_to_enable     # Use turning to and ignore other control commands
 # Turn to absolute angle
 float32 turn_to         # Absolute angle, in degrees, to turn to
