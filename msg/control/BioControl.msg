@@ -8,21 +8,19 @@ int32 pump_amount
 int32 fan_id
 int32 fan_duration
 
-# PWM servos: PWM servo command (25), [0] = which one (1‐3), [1] = position (deg); maybe we want to run these all at one from basestation?
-int32 servo_id
+# PWM servos: PWM servo command (25), position (deg)
 int32 servo_position
 
-# lynx motion servo: raises/lowers scythe. down/stop/up (-1/0/1)
-int32 lss_direction
+# lynx motion servo: raises/lowers bio arm. -100 thru 100 for direction and speed. Positive is up and negative is. down
+int32 bio_arm
 
 # Laser: toggle (0 or 1)
 int32 laser
 
-# Dril: control like manual arm joints. Set direction and speed
-float32 drill_duty
+# Dril: -100 thru 100 for direction and speed. Positive is forward and negative is backwards.
+int32 drill
+# same deal as bio arm
+int32 drill_arm
 
-# Vibration motor: DC motor command (26), [0] = on/off (0/1)
+# Vibration motor: DC motor command (26), [0] = on/off (1/0)
 int32 vibration_motor
-
-# Shake biosensor drill until 0 recieved. counter-clockwise/stop/clockwise (-1/0/1)
-int32 drill_shake
