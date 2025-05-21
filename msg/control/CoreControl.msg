@@ -16,3 +16,5 @@ bool brake              # Is brake mode enabled?
 bool turn_to_enable     # Use turning to and ignore other control commands
 # Turn to absolute angle
 float32 turn_to         # Absolute angle, in degrees, to turn to
+# Turn to timeout 
+float32 turn_to_timeout # Time for turnto to timeout (seconds)
