@@ -12,6 +12,7 @@ geometry_msgs/Vector3 bno_accel  # x, y, z acceleration readings from BNO055
 
 # Rover Orientation
 float64 orientation   # Orientation of the rover relative to North (0 - 359 degrees)
+int32 imu_calib       # BNO IMU calibration status (0 - not calibrated, 13 - fully calibrated)
 
 # BMP Sensor Data
 float64 bmp_temp      # Temperature reading in Celsius
