@@ -24,7 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/feedback/AutoFeedback.msg"
   "msg/feedback/SocketFeedback.msg"
   "msg/feedback/DigitFeedback.msg"
-  "msg/feedback/FaerieFeedback.msg"
+  "msg/feedback/BioFeedback.msg"
   "msg/feedback/CoreFeedback.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )

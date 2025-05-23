@@ -1,28 +1,42 @@
 # Topic: /bio/control
 
-# Pumps: stepper motor command (27), [0] = which one (1-4), [1] = how much fluid (mL); this is controlled by motor mcu
+
+## CITADEL
+
+# Pumps: [0] = which one (1-4), [1] = how much fluid (mL)
+# VicCAN: 27 - Stepper motor
 int32 pump_id
 int32 pump_amount
 
-# Fans: Citadel fan command (new 40), [0] = which one (1-3), [1] = duration (ms)
+# Fans: [0] = which one (1-3), [1] = duration (ms)
+# VicCAN: 40 - CITADEL fan
 int32 fan_id
 int32 fan_duration
 
-# PWM servos: PWM servo command (25), [0] = which one (1‐3), [1] = position (deg); maybe we want to run these all at one from basestation?
-int32 servo_id
+# PWM servos: position (deg)
+# VicCAN: 25 - PWM servo
 int32 servo_position
 
-# lynx motion servo: raises/lowers scythe. down/stop/up (-1/0/1)
-int32 lss_direction
+# Bio arm (Scythe): -100 thru 100 for direction and speed. Positive is up and negative is down.
+# VicCAN: 24 - LSS
+int32 bio_arm
 
-# Laser: toggle (0 or 1)
-int32 laser
-
-# Dril: control like manual arm joints. Set direction and speed
-float32 drill_duty
-
-# Vibration motor: DC motor command (26), [0] = on/off (0/1)
+# Vibration motor: [0] = on/off (1/0)
+# VicCAN: 26 - DC motor
 int32 vibration_motor
 
-# Shake biosensor drill until 0 recieved. counter-clockwise/stop/clockwise (-1/0/1)
-int32 drill_shake
+
+## FAERIE
+
+# Laser: [0] = on/off (0 or 1)
+# VicCAN: 28 - Laser
+int32 laser
+
+# Drill: -100 thru 100 for direction and speed. Positive is CW and negative is CCW.
+# VicCAN: 19 - REV motor duty cycle
+int32 drill
+
+# Linear Actuator: same deal as bio arm
+# VicCAN: 42 - FAERIE bio arm
+int32 drill_arm
+
