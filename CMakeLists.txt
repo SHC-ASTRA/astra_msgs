@@ -22,6 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/control/ControllerState.msg"
   "msg/control/CoreControl.msg"
   "msg/control/BioControl.msg"
+  "msg/control/PtzControl.msg"
+  "msg/feedback/PtzFeedback.msg"
   "msg/feedback/AutoFeedback.msg"
   "msg/feedback/SocketFeedback.msg"
   "msg/feedback/DigitFeedback.msg"
