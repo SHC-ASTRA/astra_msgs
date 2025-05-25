@@ -13,9 +13,10 @@ int32 pump_amount
 int32 fan_id
 int32 fan_duration
 
-# PWM servos: position (deg)
+# PWM servos: which one (1-3), wiggle state (true or false)
 # VicCAN: 25 - PWM servo
-int32 servo_position
+int32 servo_id
+bool servo_state
 
 # Bio arm (Scythe): -100 thru 100 for direction and speed. Positive is up and negative is down.
 # VicCAN: 24 - LSS
