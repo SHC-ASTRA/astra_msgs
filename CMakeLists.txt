@@ -26,6 +26,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/feedback/DigitFeedback.msg"
   "msg/feedback/BioFeedback.msg"
   "msg/feedback/CoreFeedback.msg"
+  "msg/feedback/MaculaFeedback.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
