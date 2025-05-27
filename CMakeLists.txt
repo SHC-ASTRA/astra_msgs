@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/AutoCommand.action"
   "msg/control/ArmIK.msg"
   "msg/control/ArmManual.msg"
+  "msg/control/AutoNav.msg"
   "msg/control/ControllerState.msg"
   "msg/control/CoreControl.msg"
   "msg/control/BioControl.msg"
