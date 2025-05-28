@@ -5,6 +5,7 @@
 float64 gps_lat       # GPS latitude
 float64 gps_long      # GPS longitude
 int32 gps_sats        # Number of active GPS satellites
+float64 gps_alt       # GPS longitude
 
 # BNO055 Sensor Data
 geometry_msgs/Vector3 bno_gyro   # x, y, z gyroscope readings from BNO055
