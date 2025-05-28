@@ -6,7 +6,7 @@
 # Pumps: [0] = which one (1-4), [1] = how much fluid (mL)
 # VicCAN: 27 - Stepper motor
 int32 pump_id
-int32 pump_amount
+float64 pump_amount
 
 # Fans: [0] = which one (1-3), [1] = duration (ms)
 # VicCAN: 40 - CITADEL fan
