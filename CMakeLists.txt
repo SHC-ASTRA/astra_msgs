@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/AutoCommand.action"
   "msg/control/ArmIK.msg"
   "msg/control/ArmManual.msg"
+  "msg/control/AutoNav.msg"
   "msg/control/ControllerState.msg"
   "msg/control/CoreControl.msg"
   "msg/control/BioControl.msg"
@@ -28,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/feedback/DigitFeedback.msg"
   "msg/feedback/BioFeedback.msg"
   "msg/feedback/CoreFeedback.msg"
+  "msg/feedback/MaculaFeedback.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
