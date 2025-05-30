@@ -25,3 +25,26 @@ float64 bat_voltage   # Current voltage of the battery
 float64 voltage_12    # Current voltage of the 12V rail
 float64 voltage_5     # Current voltage of the 5V rail
 float64 voltage_3     # Current voltage of the 3.3V rail
+
+
+# REV motor feedback
+
+# Front left (1)
+float32 fl_temp     # Current motor temperature in Celsius
+float32 fl_voltage  # Current motor voltage in volts
+float32 fl_current  # Current motor amperage in milliamps
+
+# Back left (2)
+float32 bl_temp     # Current motor temperature in Celsius
+float32 bl_voltage  # Current motor voltage in volts
+float32 bl_current  # Current motor amperage in milliamps
+
+# Front right (3)
+float32 fr_temp     # Current motor temperature in Celsius
+float32 fr_voltage  # Current motor voltage in volts
+float32 fr_current  # Current motor amperage in milliamps
+
+# Back right (4)
+float32 br_temp     # Current motor temperature in Celsius
+float32 br_voltage  # Current motor voltage in volts
+float32 br_current  # Current motor amperage in milliamps
