@@ -14,6 +14,8 @@ int32 axis1  # Axis 1 control
 int32 axis2  # Axis 2 control
 int32 axis3  # Axis 3 control
 
+bool brake  # Whether or not to have brake mode on for arm axese
+
 # Effector Roll movement direction
 # -1: Counterclockwise
 #  0: No movement
