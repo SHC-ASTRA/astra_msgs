@@ -1,6 +1,8 @@
+# Holds sensor readings for a barometer-type sensor, like the BMP-388 or SHT-30.
+
 std_msgs/Header header
 
-float64 temperature   # Temperature reading in Celsius
-float64 altitude      # Altitude reading in meters
-float64 pressure      # Pressure reading in mBar
-float64 humidity      # Humidity reading in percentage
+float64 temperature   # Celsius
+float64 altitude      # Meters
+float64 pressure      # mBar
+float64 humidity      # Percentage

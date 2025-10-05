@@ -1,3 +1,5 @@
+# Holds voltage divider readings for a particular PCB. Set a value to 0 if not read.
+
 std_msgs/Header header
 
 float32 vbatt

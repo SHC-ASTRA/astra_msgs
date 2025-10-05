@@ -1,11 +1,12 @@
+# Replaces old CoreFeedback. Consolidates motor and voltage readings, and moves IMU and GPS readings to their own topics.
+
 std_msgs/Header header
 
-# orientation stuff goes here
-float32 orientation   # Orientation of the rover relative to North (0 - 359 degrees)
-int32 imu_calib       # BNO IMU calibration status (0 - not calibrated, 13 - fully calibrated)
+float32 orientation   # Heading of the rover relative to North (0 - 359 degrees)
+int32 imu_calib       # BNO055 IMU calibration status (0 - not calibrated, 3333 - fully calibrated)
 
 
-# Voltage Readings
+# PCB Voltage Readings
 ros2_interfaces_pkg/BoardVoltage board_voltage
 
 
