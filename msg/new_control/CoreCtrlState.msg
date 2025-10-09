@@ -1,4 +1,4 @@
 # /core/control/state
 
 bool brake_mode  # True = brake, False = coast
-int32 speed_mode  # -1 = slow, 0 = walk, 1 = fast
+float32 max_duty  # Max duty cycle setting (0.0 - 1.0); walking speed is 0.5
