@@ -30,6 +30,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/feedback/BioFeedback.msg"
   "msg/feedback/CoreFeedback.msg"
   "msg/feedback/MaculaFeedback.msg"
+  "msg/new_control/CoreCtrlState.msg"
+  "msg/new_control/VicCAN.msg"
+  "msg/new_feedback/Barometer.msg"
+  "msg/new_feedback/BoardVoltage.msg"
+  "msg/new_feedback/RevMotorState.msg"
+  "msg/new_feedback/NewCoreFeedback.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
