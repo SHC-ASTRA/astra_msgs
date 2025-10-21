@@ -7,19 +7,19 @@ int32 imu_calib       # BNO055 IMU calibration status (0 - not calibrated, 3333 
 
 
 # PCB Voltage Readings
-ros2_interfaces_pkg/BoardVoltage board_voltage
+astra_msgs/BoardVoltage board_voltage
 
 
 # REV motor feedback
 
 # Front left (1)
-ros2_interfaces_pkg/RevMotorState fl_motor
+astra_msgs/RevMotorState fl_motor
 
 # Back left (2)
-ros2_interfaces_pkg/RevMotorState bl_motor
+astra_msgs/RevMotorState bl_motor
 
 # Front right (3)
-ros2_interfaces_pkg/RevMotorState fr_motor
+astra_msgs/RevMotorState fr_motor
 
 # Back right (4)
-ros2_interfaces_pkg/RevMotorState br_motor
+astra_msgs/RevMotorState br_motor
