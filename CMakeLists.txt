@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(ros2_interfaces_pkg)
+project(astra_msgs)
 
 if(POLICY CMP0148) 
   cmake_policy(SET CMP0148 OLD) 
