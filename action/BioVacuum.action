@@ -1,0 +1,16 @@
+# Topic: /bio/control/vacuum
+
+# Goal
+byte valve_id
+int32 fan_time_ms
+---
+# Feedback
+bool requested_valve_state
+float32 requested_fan_state
+---
+# Result
+# Nothing.
+
+
+# Request the valve to open and the duration to run the fan for.
+# process: open valve n, wait (x)ms, run fan for y, close valve n, wait (x)ms, result
