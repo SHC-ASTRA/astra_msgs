@@ -1,12 +1,12 @@
-# Topic: /bio/control/vacuum
-
 # Goal
 byte valve_id
+byte fan_duty_cycle
 int32 fan_time_ms
 ---
 # Feedback
-bool requested_valve_state
-float32 requested_fan_state
+bool requested_valve_open
+byte requested_fan_duty_cycle
+int32 requested_fan_time
 ---
 # Result
 # Nothing.
