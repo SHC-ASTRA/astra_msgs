@@ -2,6 +2,7 @@
 
 # Goal
 byte tube_id
+byte extension_percent
 ---
 # Result
 # Nothing.
