@@ -1,10 +1,10 @@
 # Goal
-byte valve_id
-byte fan_duty_cycle
-int32 fan_time_ms
+byte valve_id # (0-2)
+byte fan_duty_cycle_percent # (0-100) 
+uint32 fan_time_ms 
 ---
 # Feedback
-int32 fan_time_remaining
+uint32 fan_time_remaining_ms
 ---
 # Result
 # Nothing.
