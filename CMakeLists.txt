@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.8)
 project(astra_msgs)
 
-if(POLICY CMP0148) 
-  cmake_policy(SET CMP0148 OLD) 
+if(POLICY CMP0148)
+  cmake_policy(SET CMP0148 OLD)
 endif()
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
@@ -11,11 +11,12 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(geometry_msgs REQUIRED) 
+find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/AutoCommand.action"
+  "action/BioVacuum.action"
   "msg/control/ArmIK.msg"
   "msg/control/ArmManual.msg"
   "msg/control/AutoNav.msg"
@@ -31,11 +32,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/feedback/CoreFeedback.msg"
   "msg/feedback/MaculaFeedback.msg"
   "msg/new_control/CoreCtrlState.msg"
+  "msg/new_control/BioDistributor.msg"
   "msg/new_control/VicCAN.msg"
   "msg/new_feedback/Barometer.msg"
   "msg/new_feedback/BoardVoltage.msg"
   "msg/new_feedback/RevMotorState.msg"
   "msg/new_feedback/NewCoreFeedback.msg"
+  "srv/BioTestTube.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 

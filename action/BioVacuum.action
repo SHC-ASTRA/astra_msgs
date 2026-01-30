@@ -1,0 +1,13 @@
+# Goal
+byte valve_id
+byte fan_duty_cycle
+int32 fan_time_ms
+---
+# Feedback
+int32 fan_time_remaining
+---
+# Result
+# Nothing.
+
+# Request the valve to open and the duty cycle and duration to run the fan for.
+# process: open valve n, wait (x)ms, run fan for y, close valve n, wait (x)ms, result
