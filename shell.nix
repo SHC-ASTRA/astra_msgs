@@ -28,6 +28,7 @@ pkgs.mkShell {
           with extraPkgs;
           [
             # Dependencies from package.xml files
+            action-msgs
             ament-cmake
             ament-lint-auto
             ament-lint-common
