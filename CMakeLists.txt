@@ -35,9 +35,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/new_control/BioDistributor.msg"
   "msg/new_control/VicCAN.msg"
   "msg/new_feedback/Barometer.msg"
+  "msg/new_feedback/NewBioFeedback.msg"
   "msg/new_feedback/BoardVoltage.msg"
   "msg/new_feedback/RevMotorState.msg"
   "msg/new_feedback/NewCoreFeedback.msg"
+  "srv/BioCCD.srv"
   "srv/BioTestTube.srv"
   "msg/new_feedback/ArmFeedback.msg"
   DEPENDENCIES std_msgs geometry_msgs

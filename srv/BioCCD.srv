@@ -1,0 +1,7 @@
+# Topic: /bio/feedback/CCD
+
+# Goal
+bool request       # Request CCD image
+---
+# Result
+float32[3648] ccd_data
