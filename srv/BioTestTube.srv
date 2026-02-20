@@ -1,7 +1,7 @@
 # Topic: /bio/control/test_tube
 
 # Goal
-byte tube_id # (0-2)
+uint8 tube_id # (0-2)
 float32 milliliters # (0-10.0)
 ---
 # Result
