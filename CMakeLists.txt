@@ -33,6 +33,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/feedback/MaculaFeedback.msg"
   "msg/new_control/CoreCtrlState.msg"
   "msg/new_control/BioDistributor.msg"
+  "msg/new_control/FaerieControl.msg"
+  "msg/new_control/ScytheControl.msg"
   "msg/new_control/VicCAN.msg"
   "msg/new_feedback/Barometer.msg"
   "msg/new_feedback/NewBioFeedback.msg"
