@@ -1,0 +1,8 @@
+# Topic: /bio/feedback/LibsSystem
+
+# Goal
+bool fire_laser       # Request CCD image
+---
+# Result
+float32[800] ccd_data
+
