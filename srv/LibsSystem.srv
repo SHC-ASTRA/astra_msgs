@@ -1,4 +1,4 @@
-# Topic: /bio/feedback/LibsSystem
+# Topic: /bio/control/libs_system
 
 # Goal
 bool fire_laser       # Request CCD image
