@@ -1,0 +1,13 @@
+# We can deal with better documentation in the summer this is a now problem
+
+# Topic /bio/libs/key_prompt
+MessageType: Int32
+
+# Topic /bio/libs/key_response
+MessageType: Int32
+
+# Topic /arm/joint_state
+MessageType: JoinState
+
+
+# To be continued...

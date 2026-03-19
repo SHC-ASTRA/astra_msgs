@@ -7,4 +7,4 @@ astra_msgs/BoardVoltage board_voltage
 float32 drill_temp        # Temperature in Celsius from the SHT on the drill
 float32 drill_humidity    # Humidity in percentage from the SHT on the drill
 
-bool ground_contact       # If the end of lance is currently pressed in
+bool libs_grounded        # If LIBS is currently in contact with the ground
