@@ -1,4 +1,4 @@
-# Topic: /bio/control/test_tube
+# Topic: /bio/test_tube
 
 # Goal
 uint8 tube_id # (0-2)
