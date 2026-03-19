@@ -1,3 +1,5 @@
+# Topic: /bio/vacuum
+
 # Goal
 uint8 valve_id # (0-2)
 uint8 fan_duty_cycle_percent # (0-100)
