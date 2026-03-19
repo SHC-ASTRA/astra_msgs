@@ -41,7 +41,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/new_feedback/RevMotorState.msg"
   "msg/new_feedback/NewCoreFeedback.msg"
   "srv/BioTestTube.srv"
-  "srv/LibsSystem.srv"
+  "srv/LibsAgent.srv"
   "msg/new_feedback/ArmFeedback.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
