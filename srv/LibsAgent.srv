@@ -1,8 +1,0 @@
-# Topic: /bio/libs/agent
-
-# Goal
-# Request CCD image
-# Then, resolve /bio/libs/key_prompt over /bio/libs/key_response
----
-# Result
-float32[800] ccd_data

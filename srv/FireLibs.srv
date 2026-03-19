@@ -1,0 +1,7 @@
+# Topic: /bio/libs/fire
+
+# Goal
+int64 unique_number # Pass a unique number (per anchor restart) to allow LIBS to fire
+---
+# Result
+float32[800] ccd_data
