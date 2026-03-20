@@ -1,0 +1,7 @@
+# We can deal with better documentation in the summer this is a now problem
+
+# Topic /arm/joint_state
+MessageType: JoinState
+
+
+# To be continued...
