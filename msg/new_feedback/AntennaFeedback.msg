@@ -1,6 +1,5 @@
 # Topic: /antenna/to_base
 
-sensor_msgs/NavSatFix gps_fix
 int32 gps_satellites
 float64[3] gyro
 float64 degrees_from_north
