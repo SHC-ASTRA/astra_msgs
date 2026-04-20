@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.10)
 project(astra_msgs)
 
 if(POLICY CMP0148)
@@ -36,6 +36,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/new_control/CoreCtrlState.msg"
   "msg/new_control/FaerieControl.msg"
   "msg/new_control/VicCAN.msg"
+  "msg/new_feedback/McuVersion.msg"
   "msg/new_feedback/Barometer.msg"
   "msg/new_feedback/NewBioFeedback.msg"
   "msg/new_feedback/BoardVoltage.msg"
