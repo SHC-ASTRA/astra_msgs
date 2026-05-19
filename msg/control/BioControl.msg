@@ -27,7 +27,7 @@ int32 bio_arm
 int32 vibration_motor
 
 
-## FAERIE
+## LANCE
 
 # Laser: [0] = on/off (0 or 1)
 # VicCAN: 28 - Laser
@@ -38,6 +38,6 @@ int32 laser
 int32 drill
 
 # Linear Actuator: same deal as bio arm
-# VicCAN: 42 - FAERIE bio arm
+# VicCAN: 42 - LANCE bio arm
 int32 drill_arm
 
