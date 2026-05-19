@@ -1,6 +1,6 @@
-# Topic: /bio/faerie/control
+# Topic: /bio/lance/control
 
-float32 move_faerie # Negative for up, positive for down
+float32 move_lance # Negative for up, positive for down
 
 float32 drill_speed # -1 <-> 1
 

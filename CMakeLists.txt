@@ -34,7 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/new_control/ArmCtrlState.msg"
   "msg/new_control/CitadelControl.msg"
   "msg/new_control/CoreCtrlState.msg"
-  "msg/new_control/FaerieControl.msg"
+  "msg/new_control/LanceControl.msg"
   "msg/new_control/VicCAN.msg"
   "msg/new_feedback/McuVersion.msg"
   "msg/new_feedback/Barometer.msg"
